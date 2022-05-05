@@ -3,7 +3,7 @@ As part of my [CS402 Course](https://merlot.usc.edu/cs402-s22/) at USC, I built 
 
 - **PROCS**:- Implemented process management for a uniprocessor with a single thread. The scheduler was a simple non-preemtive FIFO queue. Thread switching happens either when the current process finishes or when it yields voluntarily (through a system call). 
 - **VFS**:- Implemented the Virtual File System. This is an interface between the OS and the various file systems implementations that the OS supports (RamFS and SFS). This includes implementing most file related system calls.
-- **VM**:- Implemented Virtual Memory to get a user space shell up and running. This meant I implemented the page fault handler, and the virtual memory map required to have Copy-On-Write working, the fork(), brk() and mmap() system calls. 
+- **VM**:- Implemented Virtual Memory to get a user space shell up and running. This meant I implemented the page fault handler, and the virtual memory map required to have Copy-On-Write working, the `fork()`, `brk()` and `mmap()` system calls. 
 
 These are screenshots from my implementation of the OS: 
 
