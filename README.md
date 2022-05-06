@@ -1,5 +1,5 @@
 # weenix-os
-As part of my [CS402 Course](https://merlot.usc.edu/cs402-s22/) at USC, I built Weenix OS. Weenix OS is an OS originally developed at Brown University and you can find out more about it [here](https://brown-cs1690.github.io/brown-cs167-s22/#/). As part of the project I implemented the following portions:
+As part of my [CS402 Course](https://merlot.usc.edu/cs402-s22/) at USC, I built Weenix OS. Weenix OS was originally developed at Brown University and you can find out more about it [here](https://brown-cs1690.github.io/brown-cs167-s22/#/). As part of the project I implemented the following portions:
 
 - **PROCS**:- Implemented process management for a uniprocessor with a single thread. The scheduler was a simple non-preemtive FIFO queue. Thread switching happens either when the current process finishes or when it yields voluntarily (through a system call). 
 - **VFS**:- Implemented the Virtual File System. This is an interface between the OS and the various file systems implementations that the OS supports (RamFS and SFS). This includes implementing most file related system calls.
