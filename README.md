@@ -43,7 +43,10 @@ Output of the `stress limit500` command showing that it successfuly stress teste
 
 <img width="417" alt="shutdown screen for weenix" src="https://user-images.githubusercontent.com/23412234/166856028-13df5ec5-df33-4150-bbb0-3c19beee0192.png">
 
-Showing that the OS cleanly halts after running these commands
+Showing that the OS cleanly halts after running these commands.
+
+
+The code for this project is governed by a closed source license, but I can email a copy of it if required to potiential employers. 
 
 
 
